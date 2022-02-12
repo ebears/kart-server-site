@@ -9,6 +9,7 @@ h2 {
 }
 p {
     color: #f8f8f2;
+    margin-left: 40px;
 }
 footer {
     position: fixed;
