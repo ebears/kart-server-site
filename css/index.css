@@ -11,11 +11,32 @@ p {
     color: #f8f8f2;
     margin-left: 40px;
 }
+header {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #f8f8f2;
+    text-align: center;
+  }
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: #f8f8f2;
+    background-color: #282a36;
     text-align: center;
   }
+#serverIP {
+    color: #8be9fd;
+}
+#breakIcon {
+    color: #f1fa8c;
+}
+#serverStatusText {
+    color: #ffb86c;
+}
+#serverStatus {
+    color: #50fa7b;
+}
