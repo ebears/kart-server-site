@@ -1,9 +1,11 @@
 body {
   background-color: #282a36;
+  max-width: 1125px;
+  margin: auto;
 }
 
 h1 {
-  color: #50fa7b;
+  color: #ff5555;
 }
 
 h2 {
@@ -30,11 +32,12 @@ p {
 }
 
 header {
-  position: relative;
+  position: sticky;
   left: 0;
   top: 0;
   width: 100%;
   color: #f8f8f2;
+  background-color: #282a36;
   text-align: center;
 }
 
@@ -43,7 +46,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  display: inline-block;
+  height: 2em;
   color: #f8f8f2;
   background-color: #282a36;
   text-align: center;
