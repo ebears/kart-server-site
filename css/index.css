@@ -1,42 +1,67 @@
 body {
-    background-color: #282a36;
-  }
+  background-color: #282a36;
+}
+
 h1 {
-    color: #50fa7b;
+  color: #50fa7b;
 }
+
 h2 {
-    color: #ff79c6;
+  color: #ff79c6;
 }
+
+h3 {
+  color: #ffb86c;
+}
+
+a:link {
+  color: #8be9fd;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bd93f9;
+  text-decoration: none;
+}
+
 p {
-    color: #f8f8f2;
-    margin-left: 40px;
+  color: #f8f8f2;
+  margin-left: 40px;
 }
+
 header {
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
-    color: #f8f8f2;
-    text-align: center;
-  }
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #f8f8f2;
+  text-align: center;
+}
+
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: #f8f8f2;
-    background-color: #282a36;
-    text-align: center;
-  }
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  color: #f8f8f2;
+  background-color: #282a36;
+  text-align: center;
+}
+
 #serverIP {
     color: #8be9fd;
+    font-size: 2em;
 }
+
 #breakIcon {
     color: #f1fa8c;
 }
+
 #serverStatusText {
     color: #ffb86c;
 }
+
 #serverStatus {
     color: #50fa7b;
 }
