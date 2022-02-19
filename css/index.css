@@ -6,18 +6,21 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 82px;
+  font-size: 6em;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 h2 {
   text-align: center;
-  font-size: 54px;
+  font-size: 3em;
   color: #ff79c6;
 }
 
 h3 {
   text-align: center;
-  font-size: 38px;
+  font-size: 2em;
   color: #ffb86c;
 }
 
@@ -42,7 +45,8 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  color: #f8f8f2;
+  color: #8be9fd;
+  font-size: 2em;
   background-color: #212121e8;
   text-align: center;
 }
@@ -60,16 +64,11 @@ footer {
 .imagesLayout {
   display: block;
   margin: auto;
-  width: 550px;
+  width: 50%;
 }
 
 #textBlock {
   background-color: #212121e8;
-}
-
-#serverIP {
-    color: #8be9fd;
-    font-size: 2em;
 }
 
 #breakIcon {
