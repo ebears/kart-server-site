@@ -1,12 +1,12 @@
 body {
-  background-color: #222222;
-  max-width: 1125px;
+  background-color: #212121;
+  max-width: 775px;
   margin: auto;
 }
 
 h1 {
   text-align: center;
-  font-size: 6em;
+  font-size: 4em;
   display: block;
   margin: auto;
   width: 50%;
