@@ -23,6 +23,19 @@ h3 {
   color: #ffb86c;
 }
 
+h4 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #dbff98;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.1em;
+  color: #98fffa;
+
+}
+
 a:link {
   color: #8be9fd;
   text-decoration: none;
@@ -89,5 +102,5 @@ footer {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  filter: blur(0.25rem) contrast(25%) brightness(50%);
+  filter: blur(0.25rem) contrast(25%) brightness(45%);
 }
