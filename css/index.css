@@ -104,3 +104,7 @@ footer {
   z-index: -1;
   filter: blur(0.25rem) contrast(25%) brightness(45%);
 }
+
+#gameplayBlock {
+  text-align: center;
+}
